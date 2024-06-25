@@ -1,0 +1,624 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton_1{
+    background: none;
+    border: none;
+    color: white;
+    width: 3rem;
+}
+
+.buscar_1{
+    background: none;
+    border-top: 100px;
+    border-left: 100px;
+    border-right: 100px;
+    border-color: white;
+}
+
+.logo{
+    width: 5rem;
+}
+
+.botones_header{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.section_1{
+    margin: auto;
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.section-1-bg{
+    background-color: rgb(218, 218, 218);
+}
+
+.cupon{
+    margin: auto;
+    max-width: 1000px;
+    height: 300px;
+}
+
+.cupon_i{
+    margin: auto;
+    max-width: 1000px;
+}
+
+.ofertas_b{
+    margin: auto;
+    color: white;
+    background-color: rgb(161, 205, 255);
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'MusticaPro-SemiBold';
+    font-size: 40px;
+    border-radius: 50px;
+    box-shadow: 0px -3px 1px 1px #7c2d63;
+}
+
+.ropa_1{
+    height: 800px;
+    background-color: rgb(231, 231, 231);
+}
+
+.content_ropa{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.imagen3{
+    width: 1000px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.more{
+    background-color: rgb(161, 205, 255);
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    padding: 10px 50px;
+}
+
+.vermas{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'MusticaPro-SemiBold';
+    font-weight: bolder;
+}
+
+.categoria{
+    background-color: rgb(218, 218, 218);
+    height: 1600px;
+}
+
+.title{
+    color: black;
+    padding: 10px;
+    border: 3px #7c2d63 solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.titulo_border{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen_categoria{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 8px #7c2d63 solid;
+}
+
+.imagen_categoria_2{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 8px rgb(161, 205, 255) solid;
+}
+
+.imagenes_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 150px;
+}
+
+.parrafo_circle{
+    text-align: center;
+    font-weight: bold;
+}
+
+.mas_vendido{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'MusticaPro-SemiBold';
+    font-weight: bolder;
+}
+
+.title_mas_vendido{
+    background-color: #7c2d63;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    padding: 10px 50px;
+}
+
+.cartas_1{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.precio{
+    color: #99367a;
+    font-weight: bold;
+    font-family: 'CercoDEMO-Light';
+}
+
+span{
+    font-size: 25px;
+    font-family: 'CercoDEMO-Light';
+    font-weight: bolder;
+}
+
+footer{
+    background-color: #7c2d63;
+    padding: 60px;
+}
+
+.title_footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'CercoDEMO-Light';
+}
+
+.boton_icon{
+    background: none;
+    border: none;
+    color: white;
+    width: 80px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.cupones_vigentes{
+    background-color: grey;
+    height: 700px;
+}
+
+.ofertas_img{
+    margin-top: 6rem;
+    width: 50rem;
+    height: 14rem;
+
+}
+
+.content_ofertas{
+    display: flex;
+    justify-content: center;
+}
+
+.ofertas_limitadas{
+    background-color: rgb(189, 189, 189);
+    height: 1400px;
+}
+
+.cupon_img{
+    width: 50rem;
+    margin-top: 4rem;
+}
+
+.cont_cupon{
+    display: flex;
+    justify-content: center;
+}
+
+.cupon_ban{
+    background-color: rgb(185, 185, 185);
+    height: 1900px;
+}
+
+.cont_violet{
+    background-color: #7c2d63;
+    width: 48rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_white{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    width: 47rem;
+    height: 14rem;
+    flex-direction: column;
+}
+
+.cupon_int{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.title_descuento{
+    margin-top: 30px;
+    font-family: 'CercoDEMO-Light';
+}
+
+.logo_celeste{
+    width: 6rem;
+    margin-left: 20px;
+}
+
+.title_w{
+    display: flex;
+    justify-content: center;
+}
+
+.descripcion_w{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin-left: 20px;
+}
+
+.boton_conseguir{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(87, 178, 252);
+    padding: 2px 20px;
+}
+
+.desc_p{
+    margin-top: 15px;
+}
+
+.cont_2_descuento{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.cont_violet_2{
+    background-color: #7c2d63;
+    width: 24rem;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_white_2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 23.5rem;
+    height: 11.5rem;
+    flex-direction: column;
+}
+
+.cupon_int_2{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.title_descuento_2{
+    margin-top: 30px;
+    font-family: 'CercoDEMO-Light';
+}
+
+.logo_celeste_2{
+    width: 6rem;
+    margin-left: 20px;
+}
+
+.title_w_2{
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+
+.descripcion_w_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    margin-left: 20px;
+}
+
+.boton_conseguir_2{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(87, 178, 252);
+    padding: 2px 20px;
+    font-size: 12px;
+}
+
+.desc_p_2{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.contenido_categoria{
+    background-color: rgb(192, 191, 191);
+    height: 1000px;
+}
+
+.title_categoria{
+    padding: 40px 30px;
+}
+
+.titulo_cat{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contenido_int{
+    display: flex;
+    gap: 100px;
+}
+
+.cont_secciones{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 22px;
+    gap: 12px;
+}
+
+.cont_img_categoria{
+    display: flex;
+    gap: 40px;
+}
+
+.botones_categoria{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media querys*/
+@font-face {
+    font-family:'CercoDEMO-Light';
+    src: url(/fonts/CercoDEMO-Light.otf);
+}
+
+@font-face {
+    font-family:'MusticaPro-SemiBold';
+    src: url(/fonts/MusticaPro-SemiBold.otf);
+}
+
+@media (max-width: 1020px){
+    .cupon{
+        margin: auto;
+        max-width: 800px;
+        height: 260px;
+    }
+    .cupon_i{
+        margin: auto;
+        max-width: 800px;
+    }
+
+    .section_1{
+        margin: auto;
+        width: 800px;
+        height: 600px;
+        display: flex;
+        align-items: center;
+    }
+    .content_ropa{
+        max-width: 800px;
+        margin: auto;
+    }
+    
+    .imagen3{
+        width: 800px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .ropa_1{
+        height: 650px;
+        background-color: rgb(231, 231, 231);
+    }
+    .imagen_categoria{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        border: 8px #7c2d63 solid;
+    }
+    
+    .imagen_categoria_2{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        border: 8px rgb(161, 205, 255) solid;
+    }
+}
+
+@media (max-width: 820px){
+    .cupon{
+        margin: auto;
+        max-width: 470px;
+        height: 170px;
+    }
+    .cupon_i{
+        margin: auto;
+        max-width: 470px;
+    }
+    .section_1{
+        margin: auto;
+        width: 500px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+    }
+    .ofertas_b{
+        margin: auto;
+        color: white;
+        background-color: rgb(161, 205, 255);
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+        font-family: 'MusticaPro-SemiBold';
+        font-size: 30px;
+        border-radius: 50px;
+        box-shadow: 0px -3px 1px 1px #7c2d63;
+    }
+    .content_ropa{
+        max-width: 470px;
+        margin: auto;
+    }
+    
+    .imagen3{
+        width: 470px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .ropa_1{
+        height: 500px;
+        background-color: rgb(231, 231, 231);
+    }
+    .imagen_categoria{
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+        border: 8px #7c2d63 solid;
+    }
+    
+    .imagen_categoria_2{
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+        border: 8px rgb(161, 205, 255) solid;
+    }
+    .cartas_1{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+    .imagenes_cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 150px;
+    }
+    .categoria{
+        background-color: rgb(218, 218, 218);
+        height: 5300px;
+    }
+    .ofertas_img{
+        margin-top: 3rem;
+        width: 30rem;
+        height: 9rem;
+    
+    }
+    .ofertas_limitadas{
+        background-color: rgb(189, 189, 189);
+        height: 2900px;
+    }
+    .cont_violet{
+        background-color: #7c2d63;
+        width: 29rem;
+        height: 15rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cont_white{
+        background-color: white;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        width: 28rem;
+        height: 14rem;
+        flex-direction: column;
+    }
+    .descripcion_w{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 400px;
+        margin-left: 20px;
+    }
+    .cupon_img{
+        width: 29rem;
+        margin-top: 4rem;
+    }
+}
