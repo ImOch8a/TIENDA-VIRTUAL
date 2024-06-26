@@ -541,16 +541,57 @@ footer{
     width: 160px;
 }
 
+.descripcion_compra{
+    display: flex;
+    flex-direction: column;
+}
 
+.contenido_interior_compra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.vela_compra{
+    width: 150px;
+}
 
+.contenido_azul_compra{
+    background-color: rgb(0, 162, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1020px;
+    height: 220px;
+    margin-top: 100px;
+}
 
+.contenido_w_compra{
+    background-color: white;
+    display: flex;
+    width: 1000px;
+    height: 200px;
+}
 
+.contenido_compra{
+    background-color: rgb(201, 201, 201);
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
 
+.precio_boton_compra{
+    display: flex;
+    justify-content: space-between;
+}
 
-
-
-
+.boton_compra{
+    border: none;
+    color: white;
+    background-color: #7c2d63;
+    height: 40px;
+    padding: 0 40px;
+}
 
 
 
@@ -588,12 +629,14 @@ footer{
         display: flex;
         justify-content: center;
     }
-
     .hooddiee{
         width: 390px;
     }
+    .contenido_edicion{
+        background-color: rgb(212, 212, 212);
+        height: 2500px;
+    }
 }
-
 
 @media (max-width: 1246px){
     .contenido_int{
@@ -640,6 +683,88 @@ footer{
     .contenido_categoria{
         background-color: rgb(192, 191, 191);
         height: 4600px;
+    }
+    
+}
+
+@media (max-width: 1057px){
+    .contenido_azul_compra{
+        background-color: rgb(0, 162, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 820px;
+        height: 220px;
+        margin-top: 100px;
+    }
+    
+    .contenido_w_compra{
+        background-color: white;
+        display: flex;
+        width: 800px;
+        height: 200px;
+    }
+    .title_compra_int{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 850px){
+    .contenido_azul_compra{
+        background-color: rgb(0, 162, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 620px;
+        height: 220px;
+        margin-top: 100px;
+    }
+    
+    .contenido_w_compra{
+        background-color: white;
+        display: flex;
+        width: 600px;
+        height: 200px;
+    }
+    .title_compra_int{
+        font-size: 15px;
+    }
+    .boton_compra{
+        border: none;
+        color: white;
+        background-color: #7c2d63;
+        height: 40px;
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width: 650px){
+    .contenido_azul_compra{
+        background-color: rgb(0, 162, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 420px;
+        height: 220px;
+        margin-top: 100px;
+    }
+    
+    .contenido_w_compra{
+        background-color: white;
+        display: flex;
+        width: 400px;
+        height: 200px;
+    }
+    .title_compra_int{
+        font-size: 10px;
+    }
+    .boton_compra{
+        border: none;
+        color: white;
+        background-color: #7c2d63;
+        height: 40px;
+        padding: 0 10px;
     }
 }
 
