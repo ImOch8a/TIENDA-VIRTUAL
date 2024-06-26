@@ -373,7 +373,7 @@ footer{
 
 .contenido_categoria{
     background-color: rgb(192, 191, 191);
-    height: 1000px;
+    height: 1600px;
 }
 
 .title_categoria{
@@ -401,7 +401,17 @@ footer{
 
 .cont_img_categoria{
     display: flex;
-    gap: 40px;
+    gap: 90px;
+}
+
+.cont_img_categoria_2{
+    display: flex;
+    gap: 90px;
+}
+
+.cont_img_categoria_3{
+    display: flex;
+    gap: 90px;
 }
 
 .botones_categoria{
@@ -412,24 +422,124 @@ footer{
     font-size: 25px;
 }
 
+.cont_int_img{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
 
+.carta_categoria{
+    text-decoration: none;
+}
 
+.contenido_edicion{
+    background-color: rgb(212, 212, 212);
+    height: 1400px;
+}
 
+.contenido_int_edicion{
+    display: flex;
+    gap: 100px;
+}
 
+.cafe{
+    width: 100px;
+    height: 40px;
+    border:none;
+    background-color: rgb(61, 43, 43);
+}
 
+.negro{
+    width: 100px;
+    height: 40px;
+    border:none;
+    background-color: rgb(0, 0, 0);
+}
 
+.white{
+    width: 100px;
+    height: 40px;
+    border:none;
+    background-color: white;
+}
 
+.talla_xs{
+    background-color: rgb(212, 212, 212);
+    border: solid black 1px;
+    width: 80px;
+    height: 40px;
+}
 
+.talla_s{
+    background-color: rgb(212, 212, 212);
+    border: solid black 1px;
+    width: 80px;
+    height: 40px;
+}
 
+.talla_m{
+    background-color: rgb(212, 212, 212);
+    border: solid black 1px;
+    width: 80px;
+    height: 40px;
+}
 
+.talla_l{
+    background-color: rgb(212, 212, 212);
+    border: solid black 1px;
+    width: 80px;
+    height: 40px;
+}
 
+.talla_xl{
+    background-color: rgb(212, 212, 212);
+    border: solid black 1px;
+    width: 80px;
+    height: 40px;
+}
 
+.descripcion_edicion{
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
 
+.img_edicion{
+    margin: 100px 0px 0px 50px;
+}
 
+.hoodies_grupo{
+    width: 158px;
+}
 
+.imagenes_grupo{
+    margin: 50px 0 0 50px;
+}
 
+.abajo_edicion{
+    display: flex;
+}
 
+.botones_abajo{
+    margin: 230px 0 0 200px;
+}
 
+.carrito{
+    background-color: #7c2d63;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 160px;
+}
+
+.comprar{
+    background-color: #7c2d63;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 160px;
+}
 
 
 
@@ -456,6 +566,81 @@ footer{
 @font-face {
     font-family:'MusticaPro-SemiBold';
     src: url(/fonts/MusticaPro-SemiBold.otf);
+}
+
+@media (max-width: 1075px){
+    .contenido_int_edicion{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    .abajo_edicion{
+        display: flex;
+        flex-direction: column;
+    }
+    .botones_abajo{
+        margin: 230px 0 0 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .todo_descripcion{
+        display: flex;
+        justify-content: center;
+    }
+
+    .hooddiee{
+        width: 390px;
+    }
+}
+
+
+@media (max-width: 1246px){
+    .contenido_int{
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+    }
+    .botones_int_categoria{
+        display: flex;
+        justify-content: center;
+    }
+    .title_categoria{
+        display: flex;
+        justify-content: center;
+    }
+    .cont_interior_categoria_all{
+        display: flex;
+        justify-content: center;
+    }
+    .contenido_categoria{
+        background-color: rgb(192, 191, 191);
+        height: 2000px;
+    }
+}
+
+@media (max-width: 930px){
+    .cont_img_categoria{
+        display: flex;
+        gap: 90px;
+        flex-direction: column;
+    }
+    
+    .cont_img_categoria_2{
+        display: flex;
+        gap: 90px;
+        flex-direction: column;
+    }
+    
+    .cont_img_categoria_3{
+        display: flex;
+        gap: 90px;
+        flex-direction: column;
+    }
+    .contenido_categoria{
+        background-color: rgb(192, 191, 191);
+        height: 4600px;
+    }
 }
 
 @media (max-width: 1020px){
@@ -621,4 +806,84 @@ footer{
         width: 29rem;
         margin-top: 4rem;
     }
+}
+
+/*Hover*/
+
+:hover.botones_categoria{
+    text-decoration: none;
+    color: #7c2d63;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    transition: .5s;
+}
+
+:hover.talla_xs{
+    background-color: rgb(212, 212, 212);
+    border: solid black 1px;
+    width: 90px;
+    height: 50px;
+    opacity: 50%;
+    transition: .5s;
+}
+
+:hover.talla_s{
+    background-color: rgb(212, 212, 212);
+    border: solid black 1px;
+    width: 90px;
+    height: 50px;
+    opacity: 50%;
+    transition: .5s;
+}
+
+:hover.talla_m{
+    background-color: rgb(212, 212, 212);
+    border: solid black 1px;
+    width: 90px;
+    height: 50px;
+    opacity: 50%;
+    transition: .5s;
+}
+
+:hover.talla_l{
+    background-color: rgb(212, 212, 212);
+    border: solid black 1px;
+    width: 90px;
+    height: 50px;
+    opacity: 50%;
+    transition: .5s;
+}
+
+:hover.talla_xl{
+    background-color: rgb(212, 212, 212);
+    border: solid black 1px;
+    width: 90px;
+    height: 50px;
+    opacity: 50%;
+    transition: .5s;
+}
+
+:hover.cafe{
+    width: 110px;
+    height: 50px;
+    border:none;
+    background-color: rgb(61, 43, 43);
+    transition: .5s;
+}
+
+:hover.negro{
+    width: 110px;
+    height: 50px;
+    border:none;
+    background-color: rgb(0, 0, 0);
+    transition: .5s;
+}
+
+:hover.white{
+    width: 110px;
+    height: 50px;
+    border:none;
+    background-color: white;
+    transition: .5s;
 }
